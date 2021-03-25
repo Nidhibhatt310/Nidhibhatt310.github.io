@@ -1,0 +1,208 @@
+﻿body {
+    margin: 0;
+    font-family: "Times New Roman";
+    padding: 100px 0 100px 0;
+    background-image: url("/images/background.jpg");
+    background-repeat: repeat;
+    color: white;
+    text-align: left;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-left img {
+    height: 65px;
+    opacity: 0.5;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+    .header-right a {
+        line-height: 65px;
+        padding: 0 25px;
+        color: white;
+        display: block;
+        float: left;
+        transition: all 0.5s;
+    }
+
+        .header-right a:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+
+.main h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+}
+
+.main p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+    font-size: 25px;
+    color: black;
+}
+
+.main-left {
+    float: left;
+    margin-left: 20px;
+}
+
+.main-right {
+    float: right;
+    margin-right: 25px;
+}
+
+    .main-right img {
+        border-radius: 50%;
+    }
+
+.work {
+    text-align: left;
+    margin: 10px;
+    color: black;
+    float: left;
+}
+
+.work-list {
+    margin: 10px;
+    text-align: left;
+    font-size: 30px;
+}
+
+    .work-list dl {
+        margin: 20px;
+        font-size: 20px;
+        padding: 0;
+        text-align: left;
+    }
+
+#container {
+    width: 800px;
+    overflow: hidden;
+}
+
+#slider {
+    position: relative;
+    width: 3200px;
+    animation-name: slideranimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+    #slider img {
+        float: left;
+        height: 400px;
+        width: 800px;
+    }
+
+@keyframes slideranimation {
+    0% {
+        left: 0px;
+    }
+
+    10% {
+        left: 0px;
+    }
+
+    15% {
+        left: -800px;
+    }
+
+    35% {
+        left: -800px;
+    }
+
+    40% {
+        left: -1600px;
+    }
+}
+
+.github {
+    color: black;
+}
+
+.site-main {
+    margin-left: 25%;
+}
+
+    .site-main:before {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: auto;
+        content: " ";
+        display: block;
+        width: 25%;
+        background: url(../images/home-bg3.ef171b05.jpg) top center no-repeat #bababa;
+        background-size: cover;
+    }
+
+
+
+.main-navigation.extended .navigation-extendable {
+    height: 300px;
+}
+
+.site-main {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+    .site-main:before {
+        display: none;
+    }
+
+.parent-home .site-main:before {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    width: auto;
+    background-position: right top;
+}
+
+}
+
+.site-main .site-main-inner, .timeline_element {
+    position: relative;
+}
+
+.main-section {
+    max-width: 850px;
+    padding: 50px;
+    background-color: #fff;
+    color: #333;
+}
+
+.contact-me ul{
+    font-size:20px;
+    color:black;
+}
